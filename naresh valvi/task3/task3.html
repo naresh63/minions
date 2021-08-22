@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 3</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin:0px;
+        }
+        .containerFor-flex{
+            background-color:rgb(236, 177, 187);
+            width:100%;
+            display:flex;
+            justify-content:center;
+        }
+        .form-wrapper{
+            width:55%;
+        }
+        .container{
+            padding:20px;
+            margin-bottom:20px;
+            border-radius:7px;
+             background-color: #fff;
+            display:flex;
+            justify-content:center;
+        }
+        .inner-container{
+            background-color: #fff;
+            width:90%;
+        }
+        .form-input{
+            border:none;
+            border-bottom: 1px solid red;
+            outline: none;
+        }
+        button{
+            width:80px;
+            padding:5px;
+            background-color: #A67500;
+            color:white;
+            border-radius:5px;
+            border:1px solid #A67500;
+        }
+    </style>
+</head>
+<body>
+      <div class="containerFor-flex">
+       <div class="form-wrapper">
+        <div class="container">
+            <div class="inner-container">
+                 <h1>JavaScript Workshop</h1>
+                 <p>Tathastu is organising a FREE workshop to teach students about JavaScript Basics.</p> <br>
+                 <p>Contents of Workshop :</p> <br>
+                 <p>- What is JS? Basic features.</p> <br>
+                 <p> - Code demo.</p> <br>
+                 <p>- Different applications of JS.</p> <br>
+                 <p>- How to make a career with JS skill.</p> <br>
+                 <p>Instructor Profile : (<a href="#">bit.ly/AchintyaLinkedin </a> )</p> 
+                 <p> Achintya Gaumat, HBTU K Alumni</p>
+                 <p>- 4yr+ Software Exp, mentored 100+ students to get jobs!</p>
+                 <p>- Founder Twowaits Technologies.</p> <br>
+                 <p>Time & Date : 6 PM, 15th Aug 2021</p> <br>
+                 <p>Join LIVE on Youtube Channel here : <a href="#">https://youtu.be/5lRNvGJZ-0U </a></p> <br>
+                 <p>Fees : This is a FREE Workshop organised by Tathastu for knowledge purposes!</p><br>
+                 <p> How to get your certificate : There will be 2 certificates : Participation (given to all) and Quiz submission (given to those who submit the quiz post session)</p><br>
+                 <p>* Registration is mandatory.</p> <br>
+                 <p>** By registering below you become member of Tathastu (by Twowaits) Community (a community of 10,000+ students across India who learn skills & succeed in career). You will be receiving updates regarding future workshops, bootcamps, internships, jobs, hackathons on your Email as well as Whatsapp</p> <br>
+            </div>
+        </div>
+        <div class="container">
+            <div class="inner-container">
+                <p>Sample Participation Certificate given to everyone</p>
+                 <img src="./image1.JPG" alt="image1">
+            </div>
+        </div>
+        <div class="container">
+            <div class="inner-container">
+                <p>Sample Quiz Certificate given only to eligible students</p>
+                 <img src="./image2.JPG" alt="image2">
+            </div>
+        </div>
+        <div class="container">
+            <div class="inner-container">
+                <h2> Your Name *</h2>
+                <p>Add complete name</p> <br>
+                  <input type="text" class="form-input"> <br> <br>
+            </div>
+        </div>
+        <div class="container">
+            <div class="inner-container">
+                <h2> Your Email Id *</h2> <br>
+                 
+                  <input type="email" class="form-input"> <br> <br>
+            </div>
+        </div>
+        <div class="container">
+            <div class="inner-container">
+                <h2> Your Whatsapp Number *</h2>
+                <p>You will receive link to session on this number, so please share active whatsapp number only</p> <br>
+                  <input type="text" class="form-input"> <br> <br>
+            </div>
+        </div>
+        <div class="container">
+            <div class="inner-container">
+                <h2> Your College  *</h2> 
+                <input type="text" class="form-input"> <br> <br>
+             </div>
+        </div>
+        <div class="container">
+            <div class="inner-container">
+                <h2> Your Year *</h2> <br>
+                <input type="radio" > <label for="#"> 1st Year</label> <br> <br>
+                <input type="radio" > <label for="#"> 2nd Year</label> <br> <br>
+                <input type="radio" > <label for="#"> 3rd Year</label> <br> <br>
+                <input type="radio" > <label for="#"> 4th Year</label> <br> <br> 
+                <input type="radio" > <label for="#">  Passout / Graduate</label> <br> <br> 
+             </div>
+        </div>
+        <div class="container">
+            <div class="inner-container">
+                <h2> Your Branch  *</h2> 
+                <input type="radio" > <label for="#"> CS/IT or any related branch</label> <br> <br>
+                <input type="radio" > <label for="#">Other Branches  </label> <br> <br>
+             </div>
+        </div>
+        <div class="container">
+            <div class="inner-container">
+                <h2> Which skill you wish to get internship? *</h2> 
+                <p> Select only 1</p> <br>
+                <input type="radio" > <label for="#"> MERN Stack Web Development</label> <br> <br>
+                <input type="radio" > <label for="#">Front End Web Development </label> <br> <br>
+                <input type="radio" > <label for="#">Android Development </label> <br> <br>
+                <input type="radio" > <label for="#"> Python Development </label> <br> <br>
+                <input type="radio" > <label for="#">Flutter Development </label> <br> <br>
+                <input type="radio" > <label for="#">Python-Django Development </label> <br> <br>
+                <input type="radio" > <label for="#"> Data Science </label> <br> <br>
+                <input type="radio" > <label for="#">JAVA Development </label> <br> <br>
+                <input type="radio" > <label for="#"> Other: <input type="text" class="form-input"> </label> <br> <br>
+             </div>
+        </div>
+        <div class="container">
+            <div class="inner-container">
+                <h3> Have you subscribed our Youtube Channel?</h3> 
+                <p>Workshop will be conducted LIVE on YT, so make sure you follow for notification!</p> <br>
+                <input type="radio" > <label for="#"> Yes, I have followed!</label> <br> <br>
+                <input type="radio" > <label for="#">No, I will follow now : <a href="#"> https://www.youtube.com/c/twowaits?sub_confirmation=1 </a>  </label> <br> 
+             </div>
+        </div>
+            <button>Submit</button>
+         
+    </div>
+</div> 
+</body>
+</html>
